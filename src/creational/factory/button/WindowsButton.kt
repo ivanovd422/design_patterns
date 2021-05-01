@@ -1,8 +1,8 @@
-package creational.factory
+package creational.factory.button
 
 class WindowsButton : Button {
 
     override fun paint() {
-        print("You have created Windows Button")
+        println("You have created Windows Button")
     }
 }

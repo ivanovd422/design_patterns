@@ -1,4 +1,6 @@
 package creational.factory.checkbox
 
-class Checkbox {
+interface Checkbox {
+
+    fun paint()
 }
